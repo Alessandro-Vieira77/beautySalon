@@ -7,7 +7,7 @@ import "./styles.css";
 export function Card() {
   return (
     <div className="container-card flex gap-6 w-full overflow-x-scroll cursor-pointer">
-      <div className="min-w-70 px-2.5 py-2.5 bg-white rounded-xl">
+      <div className="min-w-70 px-2.5 py-2.5 bg-white rounded-xl shadow-lg">
         <img className="w-full h-36" src={image1} alt="" />
 
         <div className="flex flex-col gap-1.5 w-full">
@@ -27,7 +27,7 @@ export function Card() {
         </div>
       </div>
 
-      <div className="min-w-70 px-2.5 py-2.5 bg-white rounded-xl">
+      <div className="min-w-70 px-2.5 py-2.5 bg-white rounded-xl shadow-lg">
         <img className="w-full h-36" src={image1} alt="" />
 
         <div className="flex flex-col gap-1.5 w-full">
@@ -47,7 +47,7 @@ export function Card() {
         </div>
       </div>
 
-      <div className="min-w-70 px-2.5 py-2.5 bg-white rounded-xl">
+      <div className="min-w-70 px-2.5 py-2.5 bg-white rounded-xl shadow-lg">
         <img className="w-full h-36" src={image1} alt="" />
 
         <div className="flex flex-col gap-1.5 w-full">
@@ -67,7 +67,7 @@ export function Card() {
         </div>
       </div>
 
-      <div className="min-w-70 px-2.5 py-2.5 bg-white rounded-xl">
+      <div className="min-w-70 px-2.5 py-2.5 bg-white rounded-xl shadow-lg">
         <img className="w-full h-36" src={image1} alt="" />
 
         <div className="flex flex-col gap-1.5 w-full">
