@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 // icons
 import { FiSearch } from "react-icons/fi";
 import { FaUserCircle } from "react-icons/fa";
@@ -63,10 +65,13 @@ export function Home() {
             </p>
           </div>
           <div className="flex justify-between w-full mt-4">
-            <div className="flex flex-col justify-center items-center gap-2 w-15 sm:w-18.5 h-22 rounded-xl bg-backgroundhair shadow-lg">
+            <Link
+              to={"/hair"}
+              className="flex flex-col justify-center items-center gap-2 w-15 sm:w-18.5 h-22 rounded-xl bg-backgroundhair shadow-lg"
+            >
               <BsScissors size={22} color="#FFF" />
               <p className="text-white text-sm sm:text-base">hair</p>
-            </div>
+            </Link>
 
             <div className="flex flex-col justify-center items-center gap-2 w-15 sm:w-18.5 h-22 rounded-xl bg-backgroundhair shadow-lg">
               <GiLipstick size={22} color="#FFF" />
