@@ -48,6 +48,7 @@ export function Hair() {
             />
           </div>
         </div>
+        {/* card */}
         <div className="flex flex-col gap-4">
           <CardHair />
           <CardHair />
