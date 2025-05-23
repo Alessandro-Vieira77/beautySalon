@@ -73,19 +73,28 @@ export function Home() {
               <p className="text-white text-sm sm:text-base">hair</p>
             </Link>
 
-            <div className="flex flex-col justify-center items-center gap-2 w-15 sm:w-18.5 h-22 rounded-xl bg-backgroundhair shadow-lg">
+            <Link
+              to={"/mekeup"}
+              className="flex flex-col justify-center items-center gap-2 w-15 sm:w-18.5 h-22 rounded-xl bg-backgroundhair shadow-lg"
+            >
               <GiLipstick size={22} color="#FFF" />
               <p className="text-white text-sm   sm:text-base">Makeup</p>
-            </div>
+            </Link>
 
-            <div className="flex flex-col justify-center items-center gap-2 w-15 sm:w-18.5 h-22 rounded-xl bg-backgroundhair shadow-lg">
+            <Link
+              to={"/spa"}
+              className="flex flex-col justify-center items-center gap-2 w-15 sm:w-18.5 h-22 rounded-xl bg-backgroundhair shadow-lg"
+            >
               <GrUserFemale size={22} color="#FFF" />
               <p className="text-white text-sm   sm:text-base">Spa</p>
-            </div>
-            <div className="flex flex-col justify-center items-center gap-2 w-15 sm:w-18.5 h-22 rounded-xl bg-backgroundhair shadow-lg">
+            </Link>
+            <Link
+              to={"/nails"}
+              className="flex flex-col justify-center items-center gap-2 w-15 sm:w-18.5 h-22 rounded-xl bg-backgroundhair shadow-lg"
+            >
               <IoHandLeft size={22} color="#FFF" />
               <p className="text-white text-sm   sm:text-base">Nails</p>
-            </div>
+            </Link>
           </div>
         </section>
 
