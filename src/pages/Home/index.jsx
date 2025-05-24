@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { FiSearch } from "react-icons/fi";
 import { FaUserCircle } from "react-icons/fa";
 import { BsScissors } from "react-icons/bs";
-import { GrUserFemale } from "react-icons/gr";
+import { RiEyeCloseFill } from "react-icons/ri";
 import { GiLipstick } from "react-icons/gi";
 import { IoHandLeft } from "react-icons/io5";
 import { Card } from "../../components/Card";
@@ -36,7 +36,7 @@ export function Home() {
             className="w-36 h-8 rounded-xl text-center pt-0.5 bg-backgroundButtons text-white"
             href="#"
           >
-            Receive now
+            check it out
           </a>
         </div>
 
@@ -75,7 +75,7 @@ export function Home() {
 
             <Link
               to={"/mekeup"}
-              className="flex flex-col justify-center items-center gap-2 w-15 sm:w-18.5 h-22 rounded-xl bg-backgroundhair shadow-lg"
+              className="flex flex-col justify-center items-center gap-2 px-2 sm:w-18.5 h-22 rounded-xl bg-backgroundhair shadow-lg"
             >
               <GiLipstick size={22} color="#FFF" />
               <p className="text-white text-sm   sm:text-base">Makeup</p>
@@ -85,15 +85,15 @@ export function Home() {
               to={"/spa"}
               className="flex flex-col justify-center items-center gap-2 w-15 sm:w-18.5 h-22 rounded-xl bg-backgroundhair shadow-lg"
             >
-              <GrUserFemale size={22} color="#FFF" />
-              <p className="text-white text-sm   sm:text-base">Spa</p>
+              <RiEyeCloseFill size={22} color="#FFF" />
+              <p className="text-white text-sm   sm:text-base">C&S</p>
             </Link>
             <Link
               to={"/nails"}
               className="flex flex-col justify-center items-center gap-2 w-15 sm:w-18.5 h-22 rounded-xl bg-backgroundhair shadow-lg"
             >
               <IoHandLeft size={22} color="#FFF" />
-              <p className="text-white text-sm   sm:text-base">Nails</p>
+              <p className="text-white text-sm   sm:text-base px-1.5">Nails</p>
             </Link>
           </div>
         </section>

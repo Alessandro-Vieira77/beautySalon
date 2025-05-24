@@ -32,7 +32,7 @@ export function Nails() {
           <Link to={"/"}>
             <FaArrowLeft size={18} />
           </Link>{" "}
-          <h1 className="text-2xl font-bold">Nails</h1>
+          <h1 className="text-2xl font-bold px-1.5">Nails</h1>
           <div
             ref={inputRef}
             className="flex flex-row-reverse items-center w-12 h-12 rounded-xl bg-white px-3 shadow-xl duration-1000"
