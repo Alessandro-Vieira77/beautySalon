@@ -4,7 +4,7 @@ import { createBrowserRouter } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { Hair } from "./pages/Hair";
 import { Mekeup } from "./pages/Makeup";
-import { Spa } from "./pages/Spa";
+import { CS } from "./pages/CS";
 import { Nails } from "./pages/Nails";
 
 const router = createBrowserRouter([
@@ -21,8 +21,8 @@ const router = createBrowserRouter([
     element: <Mekeup />,
   },
   {
-    path: "/Spa",
-    element: <Spa />,
+    path: "/cs",
+    element: <CS />,
   },
   {
     path: "/nails",

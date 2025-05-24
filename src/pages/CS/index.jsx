@@ -8,7 +8,7 @@ import { FiSearch } from "react-icons/fi";
 import { FaArrowLeft } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa6";
 
-export function Spa() {
+export function CS() {
   const inputRef = useRef(null);
 
   function handleInput() {
@@ -32,7 +32,7 @@ export function Spa() {
           <Link to={"/"}>
             <FaArrowLeft size={18} />
           </Link>{" "}
-          <h1 className="text-2xl font-bold px-1.5">Spa</h1>
+          <h1 className="text-2xl font-bold px-1.5">C&S</h1>
           <div
             ref={inputRef}
             className="flex flex-row-reverse items-center w-12 h-12 rounded-xl bg-white px-3 shadow-xl duration-1000"

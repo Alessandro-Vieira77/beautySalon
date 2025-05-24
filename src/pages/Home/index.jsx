@@ -82,7 +82,7 @@ export function Home() {
             </Link>
 
             <Link
-              to={"/spa"}
+              to={"/cs"}
               className="flex flex-col justify-center items-center gap-2 w-15 sm:w-18.5 h-22 rounded-xl bg-backgroundhair shadow-lg"
             >
               <RiEyeCloseFill size={22} color="#FFF" />
