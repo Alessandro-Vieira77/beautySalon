@@ -17,7 +17,7 @@ export function Home() {
           <div className="w-10 h-10  rounded-full">
             <FaUserCircle size={40} />
           </div>
-          <p className="font-bold text-3xl text-colorTitles">
+          <p className="font-bold text-2xl text-colorTitles">
             Hello, Alessandro!
           </p>
         </div>
@@ -57,12 +57,15 @@ export function Home() {
         {/* service */}
         <section className="w-full">
           <div className="flex items-center justify-between w-full">
-            <h2 className="text-3xl font-bold text-colorTitles">
+            <h2 className="text-2xl font-bold text-colorTitles">
               Our services
             </h2>
-            <p className="text-base text-colorSubTitle cursor-pointer">
+            <Link
+              to={"/allservices"}
+              className="text-xs text-colorSubTitle cursor-pointer"
+            >
               All services
-            </p>
+            </Link>
           </div>
           <div className="flex justify-between w-full mt-4">
             <Link
@@ -101,8 +104,8 @@ export function Home() {
         {/* Popular */}
         <section className="w-full">
           <div className="flex items-center justify-between w-full">
-            <h2 className="text-3xl font-bold text-colorTitles">Common</h2>
-            <p className="text-base text-colorSubTitle cursor-pointer">
+            <h2 className="text-2xl font-bold text-colorTitles">Common</h2>
+            <p className="text-xs text-colorSubTitle cursor-pointer">
               All services
             </p>
           </div>

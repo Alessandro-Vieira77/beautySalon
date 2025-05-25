@@ -13,7 +13,7 @@ export function Hair() {
 
   function handleInput() {
     if (inputRef.current) {
-      inputRef.current.style.width = "70%";
+      inputRef.current.style.width = "90%";
       // inputRef.current.style.width = "";
     }
   }
@@ -27,25 +27,27 @@ export function Hair() {
   return (
     <div className="w-full max-w-2xl min-h-screen px-5 py-5 mx-auto bg-background">
       <main className="w-full">
-        <div className="flex justify-between items-center mb-5">
-          {" "}
-          <Link to={"/"}>
-            <FaArrowLeft size={18} />
-          </Link>{" "}
-          <h1 className="text-2xl font-bold">Hair</h1>
-          <div
-            ref={inputRef}
-            className="flex flex-row-reverse items-center w-12 h-12 rounded-xl bg-white px-3 shadow-xl duration-1000"
-          >
-            <button onClick={() => handleInput()} className=" cursor-pointer">
-              <FiSearch size={24} />
-            </button>{" "}
-            <input
-              className="w-full pl-2.5 outline-none  "
-              type="text"
-              placeholder="Do a search..."
-            />
-            <FaArrowRight onClick={() => remove()} size={18} />
+        <div className="w-full flex flex-col gap-2">
+          <h1 className="text-2xl font-bold px-1.5 text-center">Hair</h1>
+          <div className="flex justify-between items-center mb-5 w-full">
+            {" "}
+            <Link to={"/"}>
+              <FaArrowLeft size={18} />
+            </Link>{" "}
+            <div
+              ref={inputRef}
+              className="flex flex-row-reverse items-center w-12 h-12 rounded-xl bg-white px-3 shadow-xl duration-1000"
+            >
+              <button onClick={() => handleInput()} className=" cursor-pointer">
+                <FiSearch size={24} />
+              </button>{" "}
+              <input
+                className="w-full pl-2.5 outline-none  "
+                type="text"
+                placeholder="Do a search..."
+              />
+              <FaArrowRight onClick={() => remove()} size={18} />
+            </div>
           </div>
         </div>
         {/* card */}

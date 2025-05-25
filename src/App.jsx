@@ -6,6 +6,7 @@ import { Hair } from "./pages/Hair";
 import { Mekeup } from "./pages/Makeup";
 import { CS } from "./pages/CS";
 import { Nails } from "./pages/Nails";
+import { AllServices } from "./pages/AllServices";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "/nails",
     element: <Nails />,
+  },
+  {
+    path: "/allservices",
+    element: <AllServices />,
   },
 ]);
 
