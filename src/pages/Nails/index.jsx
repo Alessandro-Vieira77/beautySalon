@@ -3,7 +3,7 @@ import { useRef } from "react";
 import { Link } from "react-router-dom";
 import { CardHair } from "../../components/CardHair";
 
-// icons
+// iconss
 import { FiSearch } from "react-icons/fi";
 import { FaArrowLeft } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa6";
